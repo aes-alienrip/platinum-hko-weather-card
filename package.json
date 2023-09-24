@@ -1,7 +1,7 @@
 {
-  "name": "platinum-weather-card",
+  "name": "platinum-hko-weather-card",
   "version": "1.0.5",
-  "description": "platinum-weather-card",
+  "description": "platinum-hko-weather-card",
   "keywords": [
     "home-assistant",
     "homeassistant",
@@ -10,8 +10,8 @@
     "lovelace",
     "custom-cards"
   ],
-  "module": "platinum-weather-card.js",
-  "repository": "git@github.com: /platinum-weather-card.git",
+  "module": "platinum-hko-weather-card.js",
+  "repository": "git@github.com: /platinum-hko-weather-card.git",
   "author": "Simon <simon@makin-things.com>",
   "license": "MIT",
   "dependencies": {
@@ -27,7 +27,7 @@
     "@mdi/js": "^6.7.96",
     "custom-card-helpers": "^1.8.0",
     "home-assistant-js-websocket": "^5.11.1",
-    "lit": "^2.4.0",
+    "lit": "^2.5.0",
     "resize-observer-polyfill": "^1.5.1",
     "ts-transformer-keys": "^0.4.3"
   },
@@ -50,7 +50,7 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-serve": "^1.1.0",
     "rollup-plugin-terser": "^7.0.2",
-    "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-typescript2": "^0.35.0",
     "typescript": "^4.8.4"
   },
   "resolutions": {
