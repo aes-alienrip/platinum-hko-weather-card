@@ -15,8 +15,8 @@ jobs:
       # Build
       - name: Build the file
         run: |
-          rm -rf /home/runner/work/platinum-weather-card/platinum-hko-weather-card/node_modules
-          cd /home/runner/work/platinum-weather-card/platinum-hko-weather-card
+          rm -rf /home/runner/work/platinum-hko-weather-card/platinum-hko-weather-card/node_modules
+          cd /home/runner/work/platinum-hko-weather-card/platinum-hko-weather-card
           npm install
           npm run build
           ls -R /home/runner/work/platinum-hko-weather-card/platinum-hko-weather-card/dist
